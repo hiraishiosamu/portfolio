@@ -18,17 +18,21 @@
   </div>
 <% else %>
   <div class="center jumbotron">
-    <h1>Welcome to the Sample App</h1>
+        <h1>Get Exercise!</h1>
 
-    <h2>
-      This is the home page for the
-      <a href="https://railstutorial.jp/">Ruby on Rails Tutorial</a>
-      sample application.
-    </h2>
+          <h2>シェアで楽しむ運動習慣</h2>
 
-    <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+          <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+    
+          <img src="/run2">
+          
+          <!--<p>-->
+          <!--<img src="/shoot" alt ="" class="filter-img"/>-->
+          <!--</p>-->
+          
+      </div>
+    </div>
   </div>
 
-  <%= link_to image_tag("rails.png", alt: "Rails logo"),
-              'http://rubyonrails.org/' %>
+
 <% end %>

@@ -5,15 +5,13 @@
 
 $gray-medium-light: #eaeaea;
 
-@mixin box_sizing {
-  -moz-box-sizing:    border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing:         border-box;
-}
 /* universal */
 
 body {
   padding-top: 60px;
+  background-image: url("run2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 section {
@@ -58,17 +56,23 @@ p {
   line-height: 1.7em;
 }
 
+/* navbar */
+.navbar { 
+margin-bottom: 20px; 
+border: 10px solid transparent; 
+background-color: rgba(220,220,220,0); 
+} 
 
 /* header */
 
 #logo {
   float: left;
   margin-right: 10px;
-  font-size: 1.7em;
+  font-size: 2.7em;
   color: white;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  padding-top: 9px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding-top: 5px;
   font-weight: bold;
   &:hover {
     color: white;
@@ -102,15 +106,6 @@ footer {
   }
 }
 
-/* miscellaneous */
-
-.debug_dump {
-  clear: both;
-  float: left;
-  width: 100%;
-  margin-top: 45px;
-  @include box_sizing;
-}
 
 /* sidebar */
 
@@ -168,7 +163,6 @@ input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
   margin-bottom: 15px;
-  @include box_sizing;
 }
 
 input {
