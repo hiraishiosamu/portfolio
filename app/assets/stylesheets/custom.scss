@@ -29,6 +29,7 @@ textarea {
   }
 }
 
+/* about ページ　*/
 .about {
     text-align: center;
   h1 {
@@ -38,6 +39,16 @@ textarea {
   p {
       font-size: 3.5em;
   line-height: 2.7em;
+  }
+}
+
+/* help ページ　*/
+.help {
+    color: white;
+    float: left;
+  p {
+    color: white;
+    float: left;
   }
 }
 
