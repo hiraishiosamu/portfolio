@@ -29,6 +29,19 @@ textarea {
   }
 }
 
+.about {
+    text-align: center;
+  h1 {
+    color: white;
+    margin-bottom: 10px;
+  }
+  p {
+      font-size: 3.5em;
+  line-height: 2.7em;
+  }
+}
+
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -54,6 +67,7 @@ h2 {
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+  color: white;
 }
 
 /* navbar */
