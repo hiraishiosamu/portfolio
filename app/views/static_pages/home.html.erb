@@ -21,7 +21,9 @@
         <h1>Get Exercise!</h1>
         <h2>シェアで楽しむ運動習慣</h2>
         <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
-        <img src="/run2">
+        <!--<img src="/run2">-->
+          <img src="<%= asset_path "run2.png" %>" />
+          <div style="background-image:url(<%= asset_path "run2.png" %>)" />
       </div>
     </div>
   </div>
