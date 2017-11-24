@@ -10,8 +10,9 @@ $gray-medium-light: #eaeaea;
 body {
   padding-top: 120px;
   // background-image: asset-url("run2.png");
-  background-image: image-url("run2.png");
+  background-image: image-url("aozora.jpg");
   background-repeat: no-repeat;
+  -moz-background-size:cover;
   background-size: cover;
 }
 
@@ -271,6 +272,7 @@ input {
   .content {
     display: block;
     margin-left: 60px;
+    color: #040000;
     img {
       display: block;
       padding: 5px 0;

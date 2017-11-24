@@ -6,7 +6,7 @@ class UsersController < ApplicationController
 
   def index
     # 条件分岐
-    @users = User.where(activated: true).paginate(page: params[:page]).search(params[:search])
+    @users = User.paginate(page: params[:page]).search(params[:search])
   end
 
   def show
