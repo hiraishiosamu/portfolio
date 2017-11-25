@@ -30,7 +30,7 @@ class UsersController < ApplicationController
     if @user.save # => Validation
       # Sucess
       log_in @user
-      flash[:success] = "Welcome to the Sample App!"
+      flash[:success] = "Get exerciseへようこそ"
       redirect_to @user
       # GET "/users/#{@user.id}" => show
     else
@@ -46,7 +46,7 @@ class UsersController < ApplicationController
   def update
     @user = User.find(params[:id])
     if @user.update_attributes(user_params)
-      flash[:success] = "Profile updated"
+      flash[:success] = "プロフィールが更新されました"
       redirect_to @user
     else
       render 'edit'
@@ -55,7 +55,7 @@ class UsersController < ApplicationController
   
   def destroy
     User.find(params[:id]).destroy
-    flash[:success] = "User deleted"
+    flash[:success] = "ユーザーが削除されました"
     redirect_to users_url
   end  
 
@@ -86,7 +86,7 @@ class UsersController < ApplicationController
     def logged_in_user
       unless logged_in?
         store_location
-        flash[:danger] = "Please log in."
+        flash[:danger] = "ログインしてください"
         redirect_to login_url
       end
     end
