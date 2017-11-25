@@ -8789,33 +8789,34 @@ button.close {
 /* line 10, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 body {
   padding-top: 120px;
-  background-image: url("run2.png");
+  background-image: url(/assets/mizuiro-a75d0b04750863fa72cd3717c453bd2d6bf34331dcfda8994618c4b6304ecd16.jpg);
   background-repeat: no-repeat;
+  -moz-background-size: cover;
   background-size: cover;
 }
 
-/* line 17, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 19, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 section {
   overflow: auto;
 }
 
-/* line 21, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 23, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 25, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 27, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .center {
   text-align: center;
 }
-/* line 27, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 29, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .center h1 {
   margin-bottom: 10px;
   color: white;
   font-size: 5.0em;
 }
 
-/* line 34, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 36, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .btn-lg, .btn-group-lg > .btn {
   /* 文字サイズを1.4emに指定 */
   font-size: 3.4em;
@@ -8828,40 +8829,40 @@ textarea {
 }
 
 /* about ページ　*/
-/* line 47, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 49, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .about {
   text-align: center;
 }
-/* line 49, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 51, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .about h1 {
   color: white;
   margin-bottom: 10px;
 }
-/* line 53, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 55, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .about p {
   font-size: 3.5em;
   line-height: 2.7em;
 }
 
 /* help ページ　*/
-/* line 60, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 62, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .help form {
   color: white;
   float: left;
 }
-/* line 63, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 65, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .help form p {
   color: white;
   float: left;
 }
 
 /* typography */
-/* line 72, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 74, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }
 
-/* line 76, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 78, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
@@ -8870,7 +8871,7 @@ h1 {
   color: white;
 }
 
-/* line 84, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 86, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 h2 {
   font-size: 2.0em;
   letter-spacing: -1px;
@@ -8880,12 +8881,12 @@ h2 {
   color: #2C2A2A;
 }
 
-/* line 93, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 95, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 h3 {
   color: white;
 }
 
-/* line 97, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 99, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 p {
   font-size: 1.1em;
   line-height: 1.7em;
@@ -8893,7 +8894,7 @@ p {
 }
 
 /* navbar */
-/* line 104, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 106, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .navbar {
   margin-bottom: 20px;
   border: 10px solid transparent;
@@ -8901,7 +8902,7 @@ p {
 }
 
 /* header */
-/* line 112, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 114, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 #logo {
   float: left;
   margin-right: 10px;
@@ -8912,154 +8913,154 @@ p {
   padding-top: 5px;
   font-weight: bold;
 }
-/* line 121, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 123, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 #logo:hover {
   color: white;
   text-decoration: none;
 }
 
 /* footer */
-/* line 129, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 131, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 footer {
-  margin-top: 45px;
+  margin: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777777;
 }
-/* line 134, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 136, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 footer a {
   color: white;
 }
-/* line 136, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 138, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 footer a:hover {
   color: white;
 }
-/* line 140, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 142, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 footer small {
   float: left;
 }
-/* line 143, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 145, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 footer ul {
   float: right;
   list-style: none;
 }
-/* line 146, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 148, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 footer ul li {
   float: left;
   margin-left: 15px;
 }
 
 /* sidebar */
-/* line 156, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 158, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .gravatar {
   float: left;
   margin-right: 10px;
 }
 
-/* line 161, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 163, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .gravatar_edit {
   margin-top: 15px;
 }
 
-/* line 165, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 167, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .stats {
   overflow: auto;
   margin-top: 0;
   padding: 0;
 }
-/* line 169, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 171, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .stats a {
   float: left;
   padding: 0 10px;
   border-left: 1px solid #eeeeee;
   color: gray;
 }
-/* line 174, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 176, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .stats a:first-child {
   padding-left: 0;
   border: 0;
 }
-/* line 178, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 180, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .stats a:hover {
   text-decoration: none;
   color: blue;
 }
-/* line 183, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 185, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .stats strong {
   display: block;
 }
 
-/* line 188, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 190, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .user_avatars {
   overflow: auto;
   margin-top: 10px;
 }
-/* line 191, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 193, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .user_avatars .gravatar {
   margin: 1px 1px;
 }
-/* line 194, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 196, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .user_avatars a {
   padding: 0;
 }
 
-/* line 199, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 201, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .users.follow {
   padding: 0;
 }
 
 /* forms */
-/* line 206, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 208, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 input, textarea, select, .uneditable-input {
   border: 1px solid #bbb;
   width: 100%;
   margin-bottom: 15px;
 }
 
-/* line 212, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 214, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 input {
   height: auto !important;
 }
 
-/* line 216, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 218, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 #error_explanation {
   color: red;
 }
-/* line 218, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 220, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 #error_explanation ul {
   color: red;
   margin: 0 0 30px 0;
 }
 
-/* line 226, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 228, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .field_with_errors .form-control {
   color: #a94442;
 }
 
-/* line 231, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 233, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .checkbox {
   margin-top: -10px;
   margin-bottom: 10px;
 }
-/* line 234, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 236, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .checkbox span {
   margin-left: 20px;
   font-weight: normal;
 }
 
-/* line 240, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 242, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 #session_remember_me {
   width: auto;
   margin-left: 0;
 }
 
 /* Users index */
-/* line 247, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 249, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .users {
   list-style: none;
   margin: 0;
 }
-/* line 250, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 252, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .users li {
   overflow: auto;
   padding: 10px 0;
@@ -9067,71 +9068,70 @@ input {
 }
 
 /* microposts */
-/* line 259, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 261, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .microposts {
   list-style: none;
   padding: 0;
 }
-/* line 262, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 264, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .microposts li {
   padding: 10px 0;
   border-top: 1px solid #e8e8e8;
 }
-/* line 266, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 268, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .microposts .user {
   margin-top: 5em;
   padding-top: 0;
 }
-/* line 270, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 272, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .microposts .content {
   display: block;
   margin-left: 60px;
+  color: #040000;
 }
-/* line 273, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 276, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .microposts .content img {
   display: block;
   padding: 5px 0;
 }
-/* line 278, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 281, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .microposts .timestamp {
   color: #777777;
   display: block;
   margin-left: 60px;
 }
-/* line 283, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 286, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 .microposts .gravatar {
   float: left;
   margin-right: 10px;
   margin-top: 5px;
 }
 
-/* line 291, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 294, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 aside textarea {
   height: 100px;
   margin-bottom: 5px;
 }
 
-/* line 297, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 300, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 span.picture {
   margin-top: 10px;
 }
-/* line 299, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
+/* line 302, /home/ubuntu/workspace/sample_app3/app/assets/stylesheets/custom.scss */
 span.picture input {
   border: 0;
 }
 /*
- * This is a manifest file that'll be compiled into application.css, which
- * will include all the files listed below.
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
  *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets,
- * vendor/assets/stylesheets, or vendor/assets/stylesheets of plugins, if any,
- * can be referenced here using a relative path.
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
  *
- * You're free to add application-wide styles to this file and they'll appear
- * at the bottom of the compiled file so the styles you add here take
- * precedence over styles defined in any styles defined in the other CSS/SCSS
- * files in this directory. It is generally better to create a new file per
- * style scope.
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
  *
 
 
