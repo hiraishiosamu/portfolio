@@ -16,15 +16,6 @@
     <% if @user.microposts.any? %>
       <h3>Microposts (<%= @user.microposts.count %>)</h3>
       
-      <!--検索拡張機能-->
-      <p>検索</p>
-      <%= form_tag user_path, :method => 'get' do %>
-        <p>
-          <%= text_field_tag :search, params[:search] %>
-          <%= submit_tag "Search", :name => nil %>
-        </p>
-      <% end %>
-      
       <ol class="microposts">
         <%= render @microposts %>
       </ol>
