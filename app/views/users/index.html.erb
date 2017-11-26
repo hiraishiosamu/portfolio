@@ -1,5 +1,5 @@
 <% provide(:title, 'All users') %>
-<h1>All users</h1>
+<h1>全てのユーザー</h1>
 
 <%= will_paginate %>
 
@@ -7,7 +7,7 @@
 <p>ユーザー検索</p>
 <%= form_tag(users_path, method: :get) do %>
   <%= text_field_tag :search %>
-  <%= submit_tag 'Search', :name => nil %>
+  <%= submit_tag '検索', :name => nil %>
 <% end %>
   
 <ul class="users">
